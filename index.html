@@ -1,173 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AGAMAMAMA Games</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: url("assets/bg.jpg") no-repeat center center fixed;
-      background-size: cover;
-      color: #fff;
-      text-align: center;
-    }
-    header {
-      padding: 30px;
-      background: rgba(0,0,0,0.8);
-    }
-    header img {
-      height: 80px;
-    }
-    h1 {
-      margin: 10px 0;
-      font-size: 2em;
-    }
-    h2 {
-      margin: 20px 0 10px;
-      font-size: 1.5em;
-    }
-    .tagline {
-      font-style: italic;
-      color: #ccc;
-    }
-    .game-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 30px 10px;
-    }
-    .game-card {
-      background: rgba(0,0,0,0.8);
-      border-radius: 10px;
-      margin: 15px;
-      padding: 15px;
-      width: 300px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.6);
-    }
-    .game-card img {
-      width: 100%;
-      border-radius: 5px;
-    }
-    .buttons {
-      margin-top: 10px;
-    }
-    .buttons a {
-      display: inline-block;
-      padding: 8px 15px;
-      margin: 5px;
-      background: #ff6600;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background 0.3s;
-    }
-    .buttons a:hover {
-      background: #ff3300;
-    }
-    .mobile-note {
-      font-size: 0.9em;
-      color: #aaa;
-      margin-top: 8px;
-      font-style: italic;
-    }
-    footer {
-      background: rgba(0,0,0,0.8);
-      padding: 20px;
-      font-size: 0.9em;
-      color: #777;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGAMAMAMA Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("assets/bg.jpg") no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 30px;
+            background: rgba(0,0,0,0.8);
+        }
+        header img {
+            height: 80px;
+        }
+        h1 {
+            margin: 10px 0;
+            font-size: 2em;
+        }
+        h2 {
+            margin: 20px 0 10px;
+            font-size: 1.5em;
+        }
+        .tagline {
+            font-style: italic;
+            color: #ccc;
+        }
+        .game-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px 10px;
+        }
+        .game-card {
+            background: rgba(0,0,0,0.8);
+            border-radius: 10px;
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        }
+        .game-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .buttons {
+            margin-top: 10px;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 8px 15px;
+            margin: 5px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .buttons a:hover {
+            background: #ff3300;
+        }
+        .mobile-note {
+            font-size: 0.9em;
+            color: #aaa;
+            margin-top: 8px;
+            font-style: italic;
+        }
+        footer {
+            background: rgba(0,0,0,0.8);
+            padding: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
+
 <header>
-  <img src="assets/logo.png" alt="AGAMAMAMA Logo">
-  <h1>AGAMAMAMA</h1>
-  <p class="tagline">Indie Developer of Match-3 and Slot Games</p>
+    <img src="assets/logo.png" alt="AGAMAMAMA Logo">
+    <h1>AGAMAMAMA</h1>
+    <p class="tagline">Indie Developer of Games and Applications</p>
 </header>
 
 <h2>Our Games</h2>
 
 <div class="game-list">
 
-  <!-- Game 1 -->
-  <div class="game-card">
-    <img src="assets/Screenshot from 2025-03-09 20-02-51amazon.png" alt="Cherry-Banana Diamonds">
-    <h3>Cherry-Banana Diamonds</h3>
-    <p>Classic Match-3 with fun mechanics.</p>
-    <div class="buttons">
-      <a href="games/HTML5_Match_1_AHA_1/index.html" target="_blank">Play Now</a>
+    <div class="game-card">
+        <img src="assets/screen2_480_854.png" alt="Gem Fusion Puzzle">
+        <h3>Gem Fusion Puzzle: Merge Numbers</h3>
+        <p>Gem Fusion Puzzle: Merge numbers to unlock the crocodile!</p>
+        <p class="mobile-note">mobile version</p>
+        <div class="buttons">
+            <a href="games/gem-fusion-puzzle/index.html" target="_blank">Play Now</a>
+        </div>
     </div>
-  </div>
 
-  <!-- Game 2 -->
-  <div class="game-card">
-    <img src="assets/ScreenshotAmazon.png" alt="Frenzy Candy Mania">
-    <h3>Frenzy Candy Mania</h3>
-    <p>Even more challenging levels and combos!</p>
-    <div class="buttons">
-      <a href="games/HTML5_Match_2_AHA_2/index.html" target="_blank">Play Now</a>
+    <div class="game-card">
+        <img src="assets/Screenshot from 2025-03-09 20-02-51amazon.png" alt="Cherry-Banana Diamonds">
+        <h3>Cherry-Banana Diamonds</h3>
+        <p>Classic Match-3 with fun mechanics.</p>
+        <div class="buttons">
+            <a href="games/HTML5_Match_1_AHA_1/index.html" target="_blank">Play Now</a>
+        </div>
     </div>
-  </div>
 
-  <!-- Game 3 -->
-  <div class="game-card">
-    <img src="assets/ScreenshotAmazon5k.png" alt="Fruit Reels -3">
-    <h3>Fruit Reels -3</h3>
-    <p>Fruit slot machine with juicy rewards.</p>
-    <div class="buttons">
-      <a href="games/HTML5_Casino_1_AHA_1/index.html" target="_blank">Play Now</a>
+    <div class="game-card">
+        <img src="assets/Nasheed_screen1.png" alt="Nasheed Tiles">
+        <h3>Nasheed Tiles</h3>
+        <p>Nasheed Tiles: Islamic Music Game. Tap the falling tiles to the rhythm of beautiful Islamic nasheeds!</p>
+        <div class="buttons">
+            <a href="games/nasheed-tiles/index.html" target="_blank">Play Now</a>
+        </div>
     </div>
-  </div>
 
-  <!-- Game 4 -->
-  <div class="game-card">
-    <img src="assets/ScreenshotAmazon1.png" alt="Fruit Reels -5">
-    <h3>Fruit Reels -5</h3>
-    <p>Another slot machine with bigger screen size.</p>
-    <div class="buttons">
-      <a href="games/HTML5_Casino_2_AHA_1024x600/index.html" target="_blank">Play Now</a>
+    <div class="game-card">
+        <img src="assets/puzzle_relax_screnshot1.png" alt="Relax Jigsaw Puzzle ASMR">
+        <h3>Relax Jigsaw Puzzle ASMR</h3>
+        <p>Relaxing jigsaw puzzles with ASMR sounds. 45 images: sea, animals & treasures.</p>
+        <div class="buttons">
+            <a href="games/jigsaw-puzzle-relax/index.html" target="_blank">Play Now</a>
+        </div>
     </div>
-  </div>
 
-  <!-- Новая игра -->
-  <div class="game-card">
-    <img src="assets/screen2_480_854.png" alt="Gem Fusion Puzzle">
-    <h3>Gem Fusion Puzzle: Merge Numbers</h3>
-    <p>Gem Fusion Puzzle: Merge numbers to unlock the crocodile!</p>
-    <p class="mobile-note">mobile version</p>
-    <div class="buttons">
-      <a href="games/gem-fusion-puzzle/index.html" target="_blank">Play Now</a>
+    <div class="game-card">
+        <img src="assets/Islamic_Jigsaw_Puzzle_Screenshot1.png" alt="Islamic Jigsaw Puzzle">
+        <h3>Islamic Jigsaw Puzzle</h3>
+        <p>Islamic Jigsaw Puzzle: Relax & Nasheeds. Islamic jigsaw puzzles + relaxing nasheeds. Free Muslim puzzle game!</p>
+        <div class="buttons">
+            <a href="games/islamic-jigsaw-puzzle/index.html" target="_blank">Play Now</a>
+        </div>
     </div>
-  </div>
 
-<!-- Slither Worm Snake Arcade -->
-  <div class="game-card">
-    <img src="assets/snake_Screenshot1.png" alt="Slither Worm Snake Arcade">
-    <h3>Slither Worm: Snake Arcade</h3>
-    <p>Classic snake game with apples, obstacles &amp; arcade fun.</p>
-    <div class="buttons">
-      <a href="games/slither-worm-snake/index.html" target="_blank">Play Now</a>
+    <div class="game-card">
+        <img src="assets/snake_Screenshot1.png" alt="Slither Worm Snake Arcade">
+        <h3>Slither Worm: Snake Arcade</h3>
+        <p>Classic snake game with apples, obstacles & arcade fun.</p>
+        <div class="buttons">
+            <a href="games/slither-worm-snake/index.html" target="_blank">Play Now</a>
+        </div>
     </div>
-  </div>
 
-<!-- Relax Jigsaw Puzzle -->
-  <div class="game-card">
-    <img src="assets/puzzle_relax_screnshot1.png" alt="Relax Jigsaw Puzzle ASMR">
-    <h3>Relax Jigsaw Puzzle ASMR</h3>
-    <p>Relaxing jigsaw puzzles with ASMR sounds. 45 images: sea, animals &amp; treasures.</p>
-    <div class="buttons">
-      <a href="games/jigsaw-puzzle-relax/index.html" target="_blank">Play Now</a>
+    <div class="game-card">
+        <img src="assets/ScreenshotAmazon.png" alt="Frenzy Candy Mania">
+        <h3>Frenzy Candy Mania</h3>
+        <p>Even more challenging levels and combos!</p>
+        <div class="buttons">
+            <a href="games/HTML5_Match_2_AHA_2/index.html" target="_blank">Play Now</a>
+        </div>
     </div>
-  </div>
+
+    <div class="game-card">
+        <img src="assets/Mega_mahjong_screenshot1.png" alt="Mega Mahjong">
+        <h3>Mega Mahjong</h3>
+        <p>Match tiles, train your mind. A classic Mahjong escape into the bamboo forest.</p>
+        <div class="buttons">
+            <a href="games/mega-mahjong/index.html" target="_blank">Play Now</a>
+        </div>
+    </div>
+
+    <div class="game-card">
+        <img src="assets/Hunter_Dron_silent_assassin_screen1.png" alt="SILENT HUNTER">
+        <h3>SILENT HUNTER: DRONE ASSASSIN</h3>
+        <p>Control a killer drone! Eliminate all enemies undetected. 10 levels of escalating difficulty.</p>
+        <div class="buttons">
+            <a href="games/silent-hunter-drone/index.html" target="_blank">Play Now</a>
+        </div>
+    </div>
 
 </div>
 
 <footer>
-  <p>© 2025 AGAMAMAMA Games. Contact: 
-     <a href="mailto:kosta.kostenko277@gmail.com">kosta.kostenko277@gmail.com</a></p>
+    <p>© 2025 AGAMAMAMA Games. Contact: 
+       <a href="mailto:kosta.kostenko277@gmail.com">kosta.kostenko277@gmail.com</a></p>
 </footer>
+
 </body>
 </html>
