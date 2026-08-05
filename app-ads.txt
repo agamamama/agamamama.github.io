@@ -212,3 +212,6 @@ pubmatic.com, 159110, RESELLER, 5d62403b186f2ace
 openx.com, 558899373, RESELLER, 6a698e2ec38604c6
 triplelift.com, 13482, RESELLER, 6c33edb13117fd86
 media.net, 8CAXEGFDP, RESELLER
+pubmatic.com,166385,RESELLER,5d62403b186f2ace
+triplelift.com, 14709, RESELLER, 6c33edb13117fd86
+nativo.com,6089,RESELLER,59521ca7cc5e9fee
