@@ -89,6 +89,7 @@ themediagrid.com, SJYVMZ, RESELLER, 35d5010d7789b49d
 triplelift.com, 9342, RESELLER, 6c33edb13117fd86
 pinklion.io, 190976892, DIRECT
 bigo.sg, 887, RESELLER
+bigo.sg,f0n51m68ni,DIRECT
 rubiconproject.com, 22134, RESELLER, 0bfd66d529a55807
 loopme.com, 11463, RESELLER, 6c8d5f95897a5a3b
 showheroes.com, 6833, RESELLER
@@ -584,3 +585,4 @@ pubnative.net,1016803,RESELLER,d641df8625486a7b
 pubnative.net,1004796,RESELLER,d641df8625486a7b
 verve.com,14619,RESELLER,0c8f5958fc2d6270
 smaato.com,1100004890,DIRECT,07bcf65f187117b4
+
